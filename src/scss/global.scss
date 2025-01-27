@@ -3,15 +3,16 @@
 }
 
 html {
-  --gradient: linear-gradient(to right bottom, #48217A, #0F1A63);
-  --color-text: rgba(255, 255, 255, .8);
+  --gradient: linear-gradient(to right bottom, #48217a, #0f1a63);
+  --color-text: rgba(255, 255, 255, 0.8);
   --color-quote: white;
-  --color-action: #c96894; 
+  --color-action: #c96894;
 }
 
 body {
   line-height: 1.4;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-image: url("/docs/background.jpg");
 }
 
 a {
@@ -20,7 +21,7 @@ a {
 
 @keyframes pop {
   from {
-    transform: scale(.5);
+    transform: scale(0.5);
   }
 
   to {
