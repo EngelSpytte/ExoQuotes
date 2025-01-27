@@ -16,7 +16,9 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: solid;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.896);
 }
 
 @keyframes pop {
